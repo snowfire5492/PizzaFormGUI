@@ -88,13 +88,11 @@ public class BetterPizzaOrderForm extends JFrame implements ActionListener{
 		if(ae.getActionCommand().equals("Order")){
 			System.out.println(temp + "pizza ordered!");
 		}
-		
-		
+			
 	}
 	
 	public static void main(String[] args){
 		SwingUtilities.invokeLater(() ->
 		new BetterPizzaOrderForm());
 	}
-	
 }
