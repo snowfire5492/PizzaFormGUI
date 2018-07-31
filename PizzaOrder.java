@@ -122,5 +122,4 @@ public class PizzaOrder implements ActionListener{
 		SwingUtilities.invokeLater(() ->				// so display doesnt show up without components loaded
 		new PizzaOrder());
 	}
-	
 }
