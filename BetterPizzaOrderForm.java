@@ -97,6 +97,4 @@ public class BetterPizzaOrderForm extends JFrame implements ActionListener{
 		new BetterPizzaOrderForm());
 	}
 	
-	
-	
 }
